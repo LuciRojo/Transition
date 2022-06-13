@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Press+Start+2P&display=swap');
+
+body{
+    background-image: url(./fondo.jpg!d);
+    background-repeat: no-repeat;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 35px;
+    transition: 6s;
+}
+
+h1:hover{
+    color: rgb(243, 53, 6);
+    transition: all 5s;
+    transform: skew(10deg, 20deg);
+ 
+ }
+
+.material-symbols-outlined{
+    transform: scale(2.1);
+    transition: 5s; 
+}
+
+.material-symbols-outlined:hover{
+   color: rgb(243, 53, 6);
+   transition: 5s;
+}
+
+.Elem1:hover{
+    transform: scale(2,2);
+}
+
+.Elem1{
+    transition-duration: 4s; 
+    border: 1px solid;
+    padding: 2px;
+}
+
+.Elem2:hover{
+    transform: matrix(1, 2, 3, 4, 3, 4);
+    transition: 6s;
+}
+
+.Elem2{
+    transition-duration: 4s;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.Elem3{
+    transition-duration: 4s;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.Elem3:hover{
+    transform: scale3d(2,2,4) rotate3d(1,2,1, 25deg);
+    transition-timing-function: ease;
+    transition-duration: 4s;
+}
+
+.Elem4:hover{
+    transition-duration: 3s;
+    transform:translate(15px, 50px);
+}
+
+.Elem4{
+    transition:5s;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.nave:hover{
+    transform: rotate(0.5turn);
+    transition:6s;
+}
+
